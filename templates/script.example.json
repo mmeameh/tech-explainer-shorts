@@ -1,0 +1,17 @@
+{
+  "title": "Let's design Supabase (sample)",
+  "format": "A",
+  "voice": { "voiceId": "JBFqnCBsd6RMkjVDRZzb", "model": "eleven_multilingual_v2" },
+  "chapters": ["SERVER", "API", "SECURITY", "LIVE"],
+  "counterLabel": "messages",
+  "beats": [
+    { "id": "hook", "say": "Let's design [Supabase].", "scene": "Hook", "mode": "dark", "pose": "point-up" },
+    { "id": "hook-2", "say": "A whole backend, without writing one.", "scene": "Hook", "mode": "dark", "pose": "shrug" },
+    { "id": "api-pain", "say": "Normally, you write routes for every [table].", "scene": "Routes", "mode": "light", "pose": "cry", "chapter": "API", "counter": 1042 },
+    { "id": "api-fix", "say": "Supabase's [{PostgREST|Post-grest}] reads your tables instead.", "scene": "Routes", "mode": "light", "pose": "point-side" },
+    { "id": "api-win", "say": "So your app talks to the database with [zero] backend code.", "scene": "Chat", "mode": "light", "pose": "fist", "counter": 1043 },
+    { "id": "sec-key", "say": "But every request carries a [key],", "scene": "Policy", "mode": "dark", "pose": "point-up", "chapter": "SECURITY" },
+    { "id": "sec-rls", "say": "so Postgres checks each [row] against a policy.", "scene": "Policy", "mode": "dark", "pose": "stop" },
+    { "id": "twist", "say": "Unless your vibe-coded app has no [{RLS|R L S}.]", "scene": "Twist", "mode": "light", "pose": "wave", "hideTimeline": true }
+  ]
+}
